@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #f0f0f0;
+}
+
+.tarjeta {
+    position: absolute;
+    width: 20%;
+    border: 10px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.etiqueta {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: rgb(160, 22, 13);
+    padding: 8px;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.3);
+    width: 10px;
+    height: 10px;
+}
